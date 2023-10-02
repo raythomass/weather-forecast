@@ -1,0 +1,61 @@
+main{
+    display: flex;
+    margin-left: 10%;
+}
+
+.weather{
+    margin-right: 10%;
+    margin-left: 40%;
+    border: solid black;
+    height: 200px;
+    display: flex;
+}
+
+.weather-box{
+    font-size: 22px;
+}
+
+.forecast{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 10%;
+    margin-left: 40%;
+    gap: 10px;
+}
+
+.section{
+    height: 50px;
+    background-color: blue;
+}
+
+.nav{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.nav h1{
+    font-size: 18px;
+}
+
+.search-box{
+    margin-left: 10%;
+}
+
+.search-box h1{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.history-title{
+    margin-top: 20px;
+}
+
+.search-history{
+    margin-top: 10px;
+}
