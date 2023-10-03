@@ -45,7 +45,7 @@ submitSearch.addEventListener("click", function(){
     $('#current-date').text(dayDate);
 
     var cityName = searchBar.value;
-    var getCity = 'http://api.openweathermap.org/geo/1.0/direct?q=' + cityName + '&limit=5&appid=dd649f598f60a0ddabbf4268e47efe79';
+    var getCity = 'https://api.openweathermap.org/geo/1.0/direct?q=' + cityName + '&limit=5&appid=dd649f598f60a0ddabbf4268e47efe79';
     fetch(getCity)
     .then(function (response) {
       return response.json();
@@ -112,7 +112,7 @@ function setHistory(){
       localStorage.setItem('search-item', historyButton.textContent);
       setDashboardCity();
       var cityName = historyButton.textContent;
-        var getCity = 'http://api.openweathermap.org/geo/1.0/direct?q=' + cityName + '&limit=5&appid=dd649f598f60a0ddabbf4268e47efe79';
+        var getCity = 'https://api.openweathermap.org/geo/1.0/direct?q=' + cityName + '&limit=5&appid=dd649f598f60a0ddabbf4268e47efe79';
         fetch(getCity)
         .then(function (response) {
           return response.json();
@@ -166,3 +166,4 @@ function setDashboardCity(){
 
 
 
+http
