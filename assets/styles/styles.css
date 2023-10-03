@@ -9,6 +9,9 @@ main{
     border: solid black;
     height: 200px;
     display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    padding: 10px;
 }
 
 .weather-box{
@@ -58,4 +61,25 @@ main{
 
 .search-history{
     margin-top: 10px;
+}
+
+.one-box{
+    line-height: 1.5;
+    background-color: lightblue;
+}
+.two-box{
+    line-height: 1.5;
+    background-color: lightblue;
+}
+.three-box{
+    line-height: 1.5;
+    background-color: lightblue;
+}
+.four-box{
+    line-height: 1.5;
+    background-color: lightblue;
+}
+.five-box{
+    line-height: 1.5;
+    background-color: lightblue;
 }
