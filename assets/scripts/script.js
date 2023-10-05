@@ -121,7 +121,7 @@ function setHistory(){
           var lat = data[0].lat;
           var lon = data[0].lon;
           var fiveDay = 'https://api.openweathermap.org/data/2.5/forecast?lat=' + lat + '&lon=' + lon + '&appid=dd649f598f60a0ddabbf4268e47efe79&units=imperial';
-          // console.log(fiveDay);
+          console.log(fiveDay);
     
           fetch(fiveDay)
           .then(function(response){
@@ -165,5 +165,3 @@ function setDashboardCity(){
 }
 
 
-
-http
